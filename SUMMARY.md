@@ -2,7 +2,7 @@
 
 * [Initial page](README.md)
 * Security
-  * [one\_way\_hash\_function](security/2018-04-17.md)
+  * [one\_way\_hash\_function](security/one_way_hash_function.md)
 * Java
 * Python
 * Algorithm
