@@ -12,7 +12,7 @@
 * Data의 입력을 Push, 출력을 Pop 이라고 함
 * 예) 택배 트럭의 짐
 
-![data_structure_stack](img/data_structure_stack.png)
+![stack](img/stack.png "Stack 자료구조")
 
 ### 파이썬 스택 구현
 * 기본적으로 List 사용하여 구현
