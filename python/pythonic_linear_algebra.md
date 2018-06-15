@@ -30,3 +30,31 @@ V + U = [v1 + u1, v2 + u2, v3 + u3 ]
 
 ### Scalar Vector
 * a(u+v) = au + av
+
+
+## Matrix
+* Python으로 Matrix(행렬)을 표시하는 다양한 방법이 존재
+
+```
+# List로 표현 (2차원 배열)
+matrix_list = [[3,6], [4,5]]
+
+# Tuple로 표현
+matrix_tuple = [(3, 6), (4, 5)]
+
+# dict로 표현
+matrix_dict = { (0, 0): 3, (0, 1): 6, (1, 0): 4, (1, 1): 5}
+```
+
+### Matrix Addition
+```
+matrix_a = [[1, 2], [7, 8]]
+matrix_b = [[3, 4], [9, 10]]
+
+result = [[sum(row) for row in zip(*t)] for t in zip(matrix_a, matrix_b)]
+
+print(result)
+
+[[4, 6], [16, 18]]
+```
+
