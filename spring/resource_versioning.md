@@ -79,7 +79,7 @@ public class ResourceUrlAdvice {
 
 
 ### 흐름
-![spring-resource-version-process_1](img/spring-resource-version-process_1.png)
+![spring-resource-version-process](img/spring-resource-version-process.png)
 
 
 ## 생각해볼 점
